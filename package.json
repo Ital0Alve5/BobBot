@@ -1,0 +1,17 @@
+{
+  "name": "bob",
+  "version": "1.2.0",
+  "description": "Robô feito para automatizar a obtenção de dados no site BobCat.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bob": "node script.js"
+  },
+  "author": "italo_alves_@outlook.com",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "json2xls": "^0.1.2",
+    "puppeteer": "^10.1.0"
+  }
+}
